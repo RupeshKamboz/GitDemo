@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Department Loan">
+<parameter name="URL" value="FaceBoob.com"/>
+  <test thread-count="5" name="Personal Test">
+  <parameter name="URL" value="google.com"/>
+    <classes>    
+     <class name="TestPackege.Day2">
+     	<methods>
+     		<exclude name="mobileLoginPersonalLoad"/>
+     	</methods>
+     
+     </class>
+     <class name="TestPackege.TestDemo"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <!--Another Classes from Same Packege-->
+  <test thread-count="5" name="PersonalFun Test">
+    <classes>    
+					<class name="TestPackege.Day3" />
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

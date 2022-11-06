@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-22T00:19:07 IST" name="Department Loan" finished-at="2022-10-22T00:19:07 IST" duration-ms="161">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day2.thoiswillrunn()[pri:0, instance:TestPackege.Day2@1e6454ec]" name="thoiswillrunn" class="TestPackege.Day2"/>
+        <method signature="TestDemo.thoiswillrunn()[pri:0, instance:TestPackege.TestDemo@693fe6c9]" name="thoiswillrunn" class="TestPackege.TestDemo"/>
+        <method signature="Day3.thoiswillr()[pri:0, instance:TestPackege.Day3@4229bb3f]" name="thoiswillr" class="TestPackege.Day3"/>
+        <method signature="Day3.thoiswillrunn()[pri:0, instance:TestPackege.Day3@4229bb3f]" name="thoiswillrunn" class="TestPackege.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-22T00:19:07 IST" name="Personal Test" finished-at="2022-10-22T00:19:07 IST" duration-ms="62">
+      <class name="TestPackege.TestDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestPackege.TestDemo@693fe6c9]" started-at="2022-10-22T00:19:07 IST" name="beforeTest" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="Dead(java.lang.String)[pri:0, instance:TestPackege.TestDemo@693fe6c9]" started-at="2022-10-22T00:19:07 IST" name="Dead" finished-at="2022-10-22T00:19:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dead -->
+        <test-method signature="Dead2()[pri:0, instance:TestPackege.TestDemo@693fe6c9]" started-at="2022-10-22T00:19:07 IST" name="Dead2" finished-at="2022-10-22T00:19:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dead2 -->
+        <test-method signature="thoiswillrunn()[pri:0, instance:TestPackege.TestDemo@693fe6c9]" started-at="2022-10-22T00:19:07 IST" name="thoiswillrunn" finished-at="2022-10-22T00:19:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thoiswillrunn -->
+      </class> <!-- TestPackege.TestDemo -->
+      <class name="TestPackege.Day2">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestPackege.Day2@1e6454ec]" started-at="2022-10-22T00:19:07 IST" name="beforeTest" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="memmo(java.lang.String)[pri:0, instance:TestPackege.Day2@1e6454ec]" started-at="2022-10-22T00:19:07 IST" name="memmo" finished-at="2022-10-22T00:19:07 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- memmo -->
+        <test-method signature="mobileLoginCarLoad()[pri:0, instance:TestPackege.Day2@1e6454ec]" started-at="2022-10-22T00:19:07 IST" name="mobileLoginCarLoad" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoad -->
+        <test-method signature="thoiswillrunn()[pri:0, instance:TestPackege.Day2@1e6454ec]" started-at="2022-10-22T00:19:07 IST" name="thoiswillrunn" finished-at="2022-10-22T00:19:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thoiswillrunn -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPackege.Day2@1e6454ec]" started-at="2022-10-22T00:19:07 IST" name="afterTest" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPackege.Day2 -->
+    </test> <!-- Personal Test -->
+    <test started-at="2022-10-22T00:19:07 IST" name="PersonalFun Test" finished-at="2022-10-22T00:19:07 IST" duration-ms="29">
+      <class name="TestPackege.Day3">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="beforeSuite" finished-at="2022-10-22T00:19:07 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="bMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="m3()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="m3" finished-at="2022-10-22T00:19:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="aMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="bMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="mr(java.lang.String)[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="mr" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FaceBoob.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mr -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="aMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="bMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="thoiswillr()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="thoiswillr" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thoiswillr -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="aMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="bMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="thoiswillrunn()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="thoiswillrunn" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thoiswillrunn -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="aMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="bMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="bMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bMethod -->
+        <test-method signature="dt()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="dt" finished-at="2022-10-22T00:19:07 IST" depends-on-methods="TestPackege.Day3.mr" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dt -->
+        <test-method is-config="true" signature="aMethod()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="aMethod" finished-at="2022-10-22T00:19:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestPackege.Day3@4229bb3f]" started-at="2022-10-22T00:19:07 IST" name="afterSuite" finished-at="2022-10-22T00:19:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestPackege.Day3 -->
+    </test> <!-- PersonalFun Test -->
+  </suite> <!-- Department Loan -->
+</testng-results>
